@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    @RenderSection("head", required: false)
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/Content/SideNav.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container" style="display:flex">
+        <div class="sidenav col-4">
+            @*<a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#clients">Clients</a>
+            <a href="#contact">Contact</a>*@
+            <button class="dropdown-btn">
+                Vegetarian
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="#">Soups</a>
+                <a href="#">Starters</a>
+                <a href="#">Main course</a>
+                <a href="#">Desserts</a>
+            </div>
+
+            <button class="dropdown-btn">
+                Non-vegetarian
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="#">Soups</a>
+                <a href="#">Starters</a>
+                <a href="#">Main course</a>
+                <a href="#">Desserts</a>
+            </div>
+
+            <button class="dropdown-btn">
+                Customized
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="#">Soups</a>
+                <a href="#">Starters</a>
+                <a href="#">Main course</a>
+                <a href="#">Desserts</a>
+            </div>
+            @*<a href="#contact">Search</a>*@
+        </div>
+
+
+        <div class="main col-8" style="float:right">
+            @RenderBody()
+        </div>
+    </div>
+    <script src="~/Scripts/sidenav.js"></script>
+</body>
+</html>

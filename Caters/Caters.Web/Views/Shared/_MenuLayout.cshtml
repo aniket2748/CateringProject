@@ -1,0 +1,306 @@
+﻿<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10940_grover_grocery_food_delivery_website</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="~/assets/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="~/assets/css/animate.css">
+
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="~/assets/css/icomoon.css">
+    <!-- Themify Icons-->
+    <link rel="stylesheet" href="~/assets/css/themify-icons.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="~/assets/css/bootstrap.css">
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="~/assets/css/magnific-popup.css">
+
+    <!-- Bootstrap DateTimePicker -->
+    <link rel="stylesheet" href="~/assets/css/bootstrap-datetimepicker.min.css">
+
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="~/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/assets/css/owl.theme.default.min.css">
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="~/assets/css/style.css">
+
+    <!-- Modernizr JS -->
+    <script src="~/assets/js/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+    <!-- Header Grover Grocery Section -->
+    <header class="_header_grover_grocery_wrapper">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light _grover_grocery_navbar">
+            <div class="container">
+                <div class="_logo_wrap">
+                    <a class="_logo_link" href="@Url.Action("Index","Home")">
+                        <img src="~/assets/images/catering logo.jpg" alt="Logo" class="_grover_grocery_logo">
+
+                    </a>
+
+                </div>
+                <button class="navbar-toggler _toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 _grover_grocery_list">
+                        <li class="nav-item _grover_grocery_list_item">
+                            <a class="nav-link _active _grover_grocery_list_link" aria-current="page" href="@Url.Action("Index","Home")">Home</a>
+                        </li>
+                        <li class="has-dropdown nav-item _grover_grocery_list_item">
+                            <a class="nav-link _grover_grocery_list_link" href="@Url.Action("Menu","Home")">Menu</a>
+                            @*<ul class="dropdown">
+                <li><a href="#">Veg</a></li>
+                <li><a href="#">Non-Veg</a></li>
+                <li><a href="#">Customized</a></li>
+            </ul>*@
+                        </li>
+                        <li class="nav-item _grover_grocery_list_item">
+                            <a class="nav-link _grover_grocery_list_link" href="@Url.Action("Services","Home")" tabindex="-1" aria-disabled="true">Services</a>
+                        </li>
+                        <li class="nav-item _grover_grocery_list_item">
+                            <a class="nav-link _grover_grocery_list_link" href="@Url.Action("Contact","Home")" tabindex="-1" aria-disabled="true">Contact</a>
+                        </li>
+                        <li class="nav-item _grover_grocery_list_item">
+                            <a class="nav-link _grover_grocery_list_link" href="@Url.Action("Register","Account")" tabindex="-1" aria-disabled="true">Register</a>
+                        </li>
+                        <li class="nav-item _grover_grocery_list_item">
+                            <a class="nav-link _grover_grocery_list_link" href="@Url.Action("Login","Account")" tabindex="-1" aria-disabled="true">Login</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar Ends -->
+    </header>
+
+
+
+
+    <div class="gtco-section">
+        <div class="gtco-container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                    <h2 class="cursive-font _header_red_clr">Categories</h2>
+
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <a href="soupsList" class="fh5co-card-item image-popup">
+                        <figure>
+                            <div class="overlay"><i class="ti-plus"></i></div>
+                            <img src="~/assets/NonVegImgs/soups.jpg" alt="Image" class="img-responsive">
+                        </figure>
+                        
+                        <div class="fh5co-text">
+                            <h2 style="color:red">Soups</h2>
+
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <a href="startersList" class="fh5co-card-item image-popup">
+                        <figure>
+                            <div class="overlay"><i class="ti-plus"></i></div>
+                            <img src="~/assets/NonVegImgs/starters.jpg" class="img-responsive">
+                        </figure>
+                        <div class="fh5co-text">
+                            <h2 style="color:red">Starters</h2>
+
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <a href="maincourseList" class="fh5co-card-item image-popup">
+                        <figure>
+                            <div class="overlay"><i class="ti-plus"></i></div>
+                            <img src="~/assets/NonVegImgs/curries.jpg" alt="Image" class="img-responsive">
+                        </figure>
+                        <div class="fh5co-text">
+                            <h2 style="color:red">Main Course</h2>
+
+
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <a href="dessertsList" class="fh5co-card-item image-popup">
+                        <figure>
+                            <div class="overlay"><i class="ti-plus"></i></div>
+                            <img src="~/assets/NonVegImgs/desserts.jpg" alt="Image" class="img-responsive">
+                        </figure>
+                        <div class="fh5co-text">
+                            <h2 style="color:red">Desserts</h2>
+
+
+
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        @RenderBody();
+    </div>
+
+
+
+
+    <!-- Footer Grover Grocery Section -->
+    <footer class="_footer_grover_grocery_wrapper">
+        <div class="_footer_grover_grocery_wrap">
+            <div class="container">
+                <div class="_footer_grover_grocery_top">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                            <div class="_footer_grover_grocery_logo_wrap">
+                                <div class="_footer_grover_grocery_logo">
+                                    <img src="~/assets/images/catering logo.jpg" alt="logo" class="_footer_logo_img">
+                                </div>
+                                <div class="_footer_grover_grocery_content_logo">
+                                    <p class="_footer_grover_grocery_content_logo_txt">Fast delivery, which is active all over the world, serves with many transportation vehicles.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+                            <div class="_footer_grover_grocery_content_wrap">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                                        <div class="_footer_grover_grocery_content">
+                                            <h4 class="_footer_grover_grocery_content_title">Company</h4>
+                                            <div class="_footer_grover_grocery_content_list">
+                                                <ul class="_footer_grover_grocery_list">
+                                                    <li class="_footer_grover_grocery_list_item">
+                                                        <a href="#0" class="_footer_grover_grocery_list_link">About Us</a>
+                                                    </li>
+                                                    <li class="_footer_grover_grocery_list_item">
+                                                        <a href="#0" class="_footer_grover_grocery_list_link">Blog</a>
+                                                    </li>
+                                                    <li class="_footer_grover_grocery_list_item">
+                                                        <a href="#0" class="_footer_grover_grocery_list_link">All Products</a>
+                                                    </li>
+                                                    <li class="_footer_grover_grocery_list_item">
+                                                        <a href="#0" class="_footer_grover_grocery_list_link">Locations Map</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                                        <div class="_footer_grover_grocery_content">
+                                            <h4 class="_footer_grover_grocery_content_title">Services</h4>
+                                            <div class="_footer_grover_grocery_content_list">
+                                                <ul class="_footer_grover_grocery_list">
+                                                    <li class="_footer_grover_grocery_list_item">
+                                                        <a href="#0" class="_footer_grover_grocery_list_link">Order tracking</a>
+                                                    </li>
+                                                    <li class="_footer_grover_grocery_list_item">
+                                                        <a href="#0" class="_footer_grover_grocery_list_link">Wish List</a>
+                                                    </li>
+                                                    <li class="_footer_grover_grocery_list_item">
+                                                        <a href="#0" class="_footer_grover_grocery_list_link">My account</a>
+                                                    </li>
+                                                    <li class="_footer_grover_grocery_list_item">
+                                                        <a href="#0" class="_footer_grover_grocery_list_link">Terms & Conditions</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                                        <div class="_footer_grover_grocery_content">
+                                            <h4 class="_footer_grover_grocery_content_title">Get in Touch</h4>
+                                            <div class="_footer_grover_grocery_content">
+                                                <p class="_footer_grover_grocery_content_txt">Subscribe to our weekly Newsletter and receive updates via email.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="_footer_grover_grocery_bottom">
+                    <hr class="_footer_divider">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div class="_footer_grover_grocery_copyright">
+                                <p class="_footer_grover_grocery_copyright_txt">All Rights Reserved &copyBESNIK 2021</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div class="_footer_grover_grocery_condition">
+                                <p class="_footer_grover_grocery_condition_txt">
+                                    <a href="" class="_footer_grover_grocery_condition_link">
+                                        Terms & Conditions
+                                    </a>
+                                </p>
+                                <p class="_footer_grover_grocery_condition_txt">
+                                    <a href="" class="_footer_grover_grocery_condition_link">
+                                        Privacy & Policy
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Grover Grocery Section Ends -->
+    <!-- Bootstrap -->
+    <script src="~/assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="~/Content/js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="~/Content/js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="~/Content/js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="~/Content/js/jquery.waypoints.min.js"></script>
+    <!-- Carousel -->
+    <script src="~/Content/js/owl.carousel.min.js"></script>
+    <!-- countTo -->
+    <script src="~/Content/js/jquery.countTo.js"></script>
+
+    <!-- Stellar Parallax -->
+    <script src="~/Content/js/jquery.stellar.min.js"></script>
+
+    <!-- Magnific Popup -->
+    <script src="~/Content/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/Content/js/magnific-popup-options.js"></script>
+
+    <script src="~/Content/js/moment.min.js"></script>
+    <script src="~/Content/js/bootstrap-datetimepicker.min.js"></script>
+
+
+    <!-- Main -->
+    <script src="~/Content/js/main.js"></script>
+</body>
+</html>

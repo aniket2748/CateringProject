@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Track2";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width" />
+
+    <link href="~/assets/css/Track.css" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="card card-timeline px-2 border-none">
+        <ul class="bs4-order-tracking">
+
+            <li class="step active"> <div><i class="fas fa-shopping-cart"></i></div>Cart </li>
+
+
+
+            <li class="step active"> <div><i class="fas fa-home"></i></div> Address</li>
+
+
+
+            <li class="step active "> <div><i class="fas fa-shopping-bag"></i></div> Delivery Time</li>
+
+
+
+            <li class="step  "> <div><i class="fas fa-money"></i></div> Payment</li>
+            <li class="step  "> <div><i class="fas fa-thumbs-up"></i></div> Confirm</li>
+            <li class="step "> <div><i class="fas fa-check"></i></div> Complete</li>
+        </ul>
+    </div>
+    <div class="text-center p-t-8 p-b-31">
+        <button onclick="window.location.href='/Veg/Track1'" type="button" class="btn btn-primary additem_button">Back</button>
+        <button onclick="window.location.href='/Veg/Track3'" type="button" class="btn btn-primary additem_button">Next</button>
+    </div>
+    @* <table align="center">
+            <tr>
+
+                <td align="right">
+                    <button onclick="window.location.href='/Veg/Track1'" type="button" class="btn btn-primary additem_button">Next</button>
+                </td>
+
+            </tr>
+        </table>*@
+
+</body>
+</html>

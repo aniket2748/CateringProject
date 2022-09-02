@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "NonVeg";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="gtco-section">
+    <div class="gtco-container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                <h2 class="cursive-font _header_red_clr">Non Veg Categories</h2>
+
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <a href="@Url.Action("SoupsList","NonVeg")" class="fh5co-card-item image-popup">
+                    <figure>
+                        <div class="overlay"><i class="ti-plus"></i></div>
+                        <img src="~/assets/NonVegImgs/soups.jpg" alt="Image" class="img-responsive">
+                    </figure>
+                    
+                    <div class="fh5co-text">
+                        <h2 style="color:red">Soups</h2>
+
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <a href="@Url.Action("StartersList","NonVeg")" class="fh5co-card-item image-popup">
+                    <figure>
+                        <div class="overlay"><i class="ti-plus"></i></div>
+                        <img src="~/assets/NonVegImgs/starters.jpg" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2 style="color:red">Starters</h2>
+
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <a href="@Url.Action("MainCourseList","NonVeg")" class="fh5co-card-item image-popup">
+                    <figure>
+                        <div class="overlay"><i class="ti-plus"></i></div>
+                        <img src="~/assets/NonVegImgs/curries.jpg" alt="Image" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2 style="color:red">Main Course</h2>
+
+
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <a href="@Url.Action("DessertsList","NonVeg")" class="fh5co-card-item image-popup">
+                    <figure>
+                        <div class="overlay"><i class="ti-plus"></i></div>
+                        <img src="~/assets/NonVegImgs/desserts.jpg" alt="Image" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2 style="color:red">Desserts</h2>
+
+
+
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
